@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LEAD TEST</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    // Detectando o navegador e aplicando classes específicas no body
+    (function() {
+      var userAgent = navigator.userAgent;
+      var body = document.body;
+      if (/firefox/i.test(userAgent)) {
+        body.classList.add('firefox');
+      } else if (/chrome|chromium|crios/i.test(userAgent)) {
+        body.classList.add('chrome');
+      } else if (/safari/i.test(userAgent)) {
+        body.classList.add('safari');
+      } else if (/edge/i.test(userAgent)) {
+        body.classList.add('edge');
+      } else {
+        body.classList.add('other');
+      }
+    })();
+  </script>
+</head>  
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo-text">
+        <img src="img/ana-perfil.png" alt="Foto de perfil">
+        <span class="logo-title"> <a href="https://www.instagram.com/anaantonelli.photo/">Ana Antonelli Photo</a></span>
+      </div>
+      <nav class="menu">
+        <ul>
+          <li><a href="#sobre">Sobre mim</a></li>
+          <li><a href="#ebook">E-book</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="vsl-section">
+    <h2 class="headline">Descubra os Segredos Fotográficos de Paris que Poucos Turistas Conhecem</h2>
+  
+    <div class="vsl-content">
+      <div class="vsl-text">
+        <p><strong>1. Criado por quem viveu e trabalhou como fotógrafa em Paris por mais de 2 anos:</strong> Não é um guia genérico. É um olhar profissional e real de quem conhece Paris além do óbvio — e sabe exatamente onde conseguir os melhores cliques.</p>
+        
+        <p><strong>2. Evite Multidões e Fotos Clichês:</strong> Saia do roteiro tradicional e descubra locais únicos e pouco explorados, garantindo imagens autênticas e exclusivas.</p>
+        
+        <p><strong>3. Economize Tempo com Localizações Precisamente Mapeadas:</strong> Cada destino vem com um link direto para o Google Maps, permitindo que você navegue pela cidade com facilidade e sem contratempos.</p>
+      </div>
+  
+      <div class="vsl-video">
+        <p class="vsl-cta">🎥 Assista ao vídeo ou continue rolando para ver tudo que você vai ganhar com esse guia.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/h_QtEfN4yPM?si=Ki5wruIhRo3d-GJ5?autoplay=1"
+          title="VSL - Paris Fotos Perfeitas" frameborder="0"
+          allow="autoplay; picture-in-picture; web-share" 
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta2-section">
+    <div class="cta2-content">
+      <h2 class="cta2-headline">O Guia Que Transforma a Sua Viagem em Paris em Um Álbum de Fotos Inesquecíveis.</h2>
+  
+      <p>Chegou a hora de transformar sua viagem em uma experiência memorável — e cheia de registros que fazem você reviver cada momento.</p>
+  
+      <p>Com este guia, você não apenas descobre os lugares mais fotogênicos (e secretos!) de Paris…<br>
+      Você vive a cidade com o olhar de quem realmente a conhece — e volta pra casa com fotos que parecem saídas de um editorial ou do Pinterest.</p>
+  
+      <h3>O que você vai levar:</h3>
+      <ul>
+        <li>✅ Localização exata dos melhores lugares para fotos no Google Maps – sem risco de se perder ou perder tempo;</li>
+        <li>✅ Roteiros prontos, pensados para serem feitos a pé ou com transporte público por perto;</li>
+        <li>✅ Dicas profissionais de ângulos, poses, luz e composição – pra você tirar fotos incríveis, mesmo sem fotógrafo;</li>
+        <li>✅ Curadoria feita por quem morou e trabalhou como fotógrafa em Paris por mais de 2 anos.</li>
+      </ul>
+  
+      <h3>📌 E mais: você ainda ganha bônus exclusivos para turbinar sua experiência</h3>
+      <ul>
+        <li>🎁 Roteiro das locações da série Emily in Paris;</li>
+        <li>🎁 Dicas de looks que ajudam você a fazer a escolha certa das roupas;</li>
+        <li>🎁 Grupo fechado no Telegram para tirar dúvidas e trocar experiências com quem já está explorando a cidade;</li>
+        <li>🎁 Desafio das fotos perfeitas em Paris – com acompanhamento no Instagram para te motivar e inspirar;</li>
+        <li>🛡️ Garantia incondicional de 7 dias – testou e não curtiu? Pode pedir reembolso, sem burocracia.</li>
+      </ul>
+  
+      <div class="cta2-button">
+        <a href="#formulario">👉 Clique aqui e garanta o seu Guia agora.</a>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="whatsapp-section-modern">
+    <div class="whatsapp-container">
+      <div class="whatsapp-text">
+        <h2>Quer tirar dúvidas antes de comprar? Me chama no WhatsApp! Quero te ouvir.</h2>
+      </div>
+      <a href="https://wa.me/5511999999999" target="_blank" class="whatsapp-modern-button">
+        📲 Botão direto para meu WhatsApp
+      </a>
+    </div>
+  </section>
+  
+  <section class="social-proof-section">
+    <h2 class="section-title">📈 Quem Já Usou o Guia o que está falando?</h2>
+    <p class="section-subtitle">Fotos incríveis, economia de tempo e uma Paris que poucos turistas conhecem.
+      👇</p>
+  
+    <div class="proof-grid">
+      <img src="img/depoimentos/printtest2.png" alt="Depoimento 1">
+      <img src="img/depoimentos/printtest.png" alt="Depoimento 2">
+      <img src="img/depoimentos/printtest2.png" alt="Depoimento 3">
+      <img src="img/depoimentos/printtest.png" alt="Depoimento 4">
+    </div>
+  </section>
+  
+
+  <section class="autoridade-section">
+    <div class="autoridade-container">
+      <div class="autoridade-img">
+        <img src="img/ana-perfil.png" alt="Foto de Ana Antonelli">
+      </div>
+  
+      <div class="autoridade-texto">
+        <h2 class="autoridade-titulo">📍Quem criou esse guia realmente conhece Paris — com olhar de fotógrafa e experiência de quem viveu lá.</h2>
+        <p>Sou <strong>Ana Antonelli</strong>, fotógrafa profissional, e morei em Paris entre 2022 e 2024.</p>
+        <p>Durante mais de dois anos, fotografei centenas de pessoas nos cenários mais lindos (e escondidos) da cidade.</p>
+        <p>Cada roteiro deste guia foi testado na prática — com luz natural, em diferentes estações, horários, com câmera e também com telefone celular.</p>
+        <p><strong>O resultado?</strong> Um mapa certeiro pra você capturar o melhor de Paris mesmo com pouco tempo ou orçamento.</p>
+        <p>Este não é um roteiro de internet ou feito por alguém que passou poucos dias na cidade. É fruto de quem viveu Paris com o olhar de quem entende de beleza, composição e emoção — e sabe como transformar uma viagem em lembranças inesquecíveis.</p>
+      </div>
+    </div>
+  </section>
+  
+  
+  <section class="metodo-section">
+    <h2 class="metodo-title">
+      ✨ Como Funciona o Guia Fotográfico de Paris
+    </h2>
+    <p class="metodo-subtitle">
+      Você não precisa de uma câmera profissional nem contratar um fotógrafo.<br>
+      Com este guia, você tem tudo o que precisa pra fazer fotos incríveis por conta própria.
+    </p>
+  
+    <div class="timeline">
+      <div class="timeline-item left">
+        <div class="content">
+          <h3>1. Acesso instantâneo</h3>
+          <p>PDF com roteiros + links diretos para Google Maps. É só abrir e seguir!</p>
+        </div>
+      </div>
+      <div class="timeline-item right">
+        <div class="content">
+          <h3>2. Roteiros otimizados</h3>
+          <p>Evite perrengue e ganhe tempo com caminhos agradáveis e perto de metrô.</p>
+        </div>
+      </div>
+      <div class="timeline-item left">
+        <div class="content">
+          <h3>3. Dicas fotográficas</h3>
+          <p>Horários, poses, enquadramentos e luz — tudo explicado de forma simples!</p>
+        </div>
+      </div>
+      <div class="timeline-item right">
+        <div class="content">
+          <h3>4. Serve para qualquer viagem</h3>
+          <p>Funciona com bate-volta, lua de mel ou mochilão.</p>
+        </div>
+      </div>
+    </div>
+    <p class="metodo-subtitle">As fotos dos seus sonhos estão a poucos cliques de distância.</p>
+    <div class="metodo-button">
+      <a href="#formulario">👉 Clique aqui e garanta o seu Guia agora.</a>
+    </div>
+  </div>
+  </section>
+
+
+  <section class="comparison-section">
+    <h2 class="section-title">📸 Qual Paris Você Vai Levar Pra Casa?</h2>
+    <div class="comparison-grid">
+      <div class="comparison-header"></div>
+      <div class="comparison-header">❌ Sem o Guia</div>
+      <div class="comparison-header">✅ Com o Guia</div>
+  
+      <div class="comparison-row-title">Fotos</div>
+      <div class="comparison-cell">Fotos genéricas, nos mesmos pontos lotados de sempre.</div>
+      <div class="comparison-cell positive">Imagens únicas, nos lugares mais fotogênicos e pouco explorados.</div>
+  
+      <div class="comparison-row-title">Tempo</div>
+      <div class="comparison-cell">Perde horas pesquisando e se deslocando à toa, sem achar o lugar exato.</div>
+      <div class="comparison-cell positive">Tudo planejado: roteiros otimizados e fáceis de seguir. Em um clique abre o mapa.</div>
+  
+      <div class="comparison-row-title">Direção fotográfica</div>
+      <div class="comparison-cell">Sem saber onde posar, que ângulo usar ou que hora ir.</div>
+      <div class="comparison-cell positive">Dicas claras de pose, luz, ângulo e composição.</div>
+  
+      <div class="comparison-row-title">Sensação</div>
+      <div class="comparison-cell">Frustração por não conseguir registrar Paris como imaginou.</div>
+      <div class="comparison-cell positive">Satisfação ao ver que você conseguiu fotos incríveis sozinho.</div>
+  
+      <div class="comparison-row-title">Resultado final</div>
+      <div class="comparison-cell">Álbum comum, cheio de selfies, que não dá vontade de olhar.</div>
+      <div class="comparison-cell positive">Registros autênticos, com personalidade e cheios de memória, que você sente orgulho e saudade.</div>
+    </div>
+  </section>
+
+
+
+  <section class="deliverables-section">
+    <h2 class="section-title">🎁 Tudo o que você vai receber ao garantir o seu acesso ao guia:</h2>
+  
+    <div class="deliverables-grid">
+      <div class="deliverable">
+        <h3>📄 Guia completo em PDF com acesso imediato</h3>
+        <p>Abra no celular, tablet ou computador — e leve Paris no bolso.</p>
+      </div>
+  
+      <div class="deliverable">
+        <h3>🗺️ Mapas interativos via Google Maps</h3>
+        <p>Com todos os lugares organizados por região. É só clicar e seguir o caminho até os pontos mais fotogênicos da cidade.</p>
+      </div>
+  
+      <div class="deliverable">
+        <h3>📸 Dicas visuais exclusivas para cada local</h3>
+        <p>Foto real do ponto + melhor ângulo e horários + sugestões de looks.</p>
+      </div>
+  
+      <div class="deliverable">
+        <h3>🧳 Roteiros prontos para diferentes durações de viagem</h3>
+        <p>Desde um final de semana até estadias mais longas — otimize seu tempo e aproveite cada clique.</p>
+      </div>
+  
+      <div class="deliverable bonus">
+        <h3>🎁 Bônus especiais</h3>
+        <ul>
+          <li>Grupo fechado no Telegram para trocar experiências e tirar dúvidas;</li>
+          <li>Desafio das fotos perfeitas em Paris (comunidade no Instagram);</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq-section">
+    <h2 class="faq-title">❓ FAQ -Perguntas Frequentes</h2>
+  
+    <div class="faq-container">
+      <details>
+        <summary>• E se eu não gostar?</summary>
+        <p>Você tem a garantia de 7 dias.</p>
+      </details>
+  
+      <details>
+        <summary>• Preciso de câmera profissional?</summary>
+        <p>Não! Um celular com boa câmera já é suficiente.</p>
+      </details>
+  
+      <details>
+        <summary>• Posso usar o guia offline?</summary>
+        <p>Sim! Você pode baixar o mapa e o PDF para usar sem internet.</p>
+      </details>
+  
+      <details>
+        <summary>• Serve para viagem rápida?</summary>
+        <p>Sim! Os roteiros podem ser adaptados de acordo com o tempo da sua viagem.</p>
+      </details>
+  
+      <details>
+        <summary>• Vai funcionar se eu for sozinha?</summary>
+        <p>Sim! Tem dicas para quem viaja só e quer fotos lindas.</p>
+      </details>
+    </div>
+  </section>
+  
+  
+
+
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-text">
+        <p>&copy; 2025 Ana Antonelli | Todos os direitos reservados</p>
+      </div>
+      <div class="social-media">
+        <a href="https://instagram.com" target="_blank">Instagram</a>
+        <a href="https://facebook.com" target="_blank">Facebook</a>
+        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
